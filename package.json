@@ -10,7 +10,7 @@
     "url": "sindresorhus.com"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=4"
   },
   "scripts": {
     "test": "xo && ava"
@@ -33,11 +33,14 @@
     "space"
   ],
   "dependencies": {
-    "indent-string": "^2.1.0",
-    "strip-indent": "^1.0.1"
+    "indent-string": "^3.0.0",
+    "strip-indent": "^2.0.0"
   },
   "devDependencies": {
     "ava": "*",
     "xo": "*"
+  },
+  "xo": {
+    "esnext": true
   }
 }
