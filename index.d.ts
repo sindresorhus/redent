@@ -8,9 +8,7 @@ declare namespace redent {
 [Strip redundant indentation](https://github.com/sindresorhus/strip-indent) and [indent the string](https://github.com/sindresorhus/indent-string).
 
 @param string - The string to normalize indentation.
-@param count - How many times you want `options.indent` repeated.
-
-Default: `0`.
+@param count - How many times you want `options.indent` repeated. Default: `0`.
 
 @example
 ```

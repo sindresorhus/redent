@@ -22,7 +22,7 @@ redent('\n  foo\n    bar\n', 1);
 
 ## API
 
-### redent(string, [count], [indent])
+### redent(string, [count], [options])
 
 #### string
 
