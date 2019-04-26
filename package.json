@@ -1,6 +1,6 @@
 {
 	"name": "redent",
-	"version": "2.0.0",
+	"version": "3.0.0",
 	"description": "Strip redundant indentation and indent the string",
 	"license": "MIT",
 	"repository": "sindresorhus/redent",
