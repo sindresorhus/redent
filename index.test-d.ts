@@ -1,7 +1,5 @@
 import {expectType} from 'tsd';
-import redent = require('.');
-
-const options: redent.Options = {};
+import redent from './index.js';
 
 expectType<string>(redent('\n  foo\n    bar\n'));
 expectType<string>(redent('\n  foo\n    bar\n', 1));

@@ -11,7 +11,7 @@ $ npm install redent
 ## Usage
 
 ```js
-const redent = require('redent');
+import redent from 'redent';
 
 redent('\n  foo\n    bar\n', 1);
 //=> '\n foo\n   bar\n'
